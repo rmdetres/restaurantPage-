@@ -1,0 +1,55 @@
+
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  /* General styling for the menu section */
+.menu-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffe6f0; /* Light pink background */
+}
+
+/* Styling for the menu */
+.menu {
+  background-color: #ff80ab; /* Pink background */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 300px;
+}
+
+/* Styling for the ordered list */
+.menu ol {
+  list-style-type: decimal;
+  padding-left: 0;
+}
+
+/* Styling for the list items */
+.menu ol li {
+  font-family: 'Arial', sans-serif;
+  font-size: 18px;
+  color: white; /* White text color */
+  margin: 10px 0;
+  transition: transform 0.3s;
+}
+
+/* Add some hover effects */
+.menu ol li:hover {
+  transform: scale(1.1);
+}
+
+  
